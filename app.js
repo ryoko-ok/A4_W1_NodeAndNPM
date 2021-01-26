@@ -2,8 +2,7 @@
 const http = require('http'); // like a PHP require
 
 // require is more or less the same as a JS import
-
-const hostname = '127.0.0.1'; // this is localhost
+// const hostname = '127.0.0.1'; // this is localhost
 const port = process.env.PORT || 3000; // localhost:3000
 
 const server = http.createServer((req, res) => { // req:request res:response
